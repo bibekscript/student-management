@@ -1,8 +1,8 @@
 
-import User from"../models/User";
+import User from "../models/User.js";
 import Student from "../models/students.js";
 import Teacher from "../models/Teacher.js";
-import bcrypt from "bycrypt.js"
+import bcrypt from "bcrypt";
 import generateToken from "../utils/generateToken.js";
 
 

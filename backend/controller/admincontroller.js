@@ -1,7 +1,7 @@
 
-import User from("../models/User.js");
-import Fee from("../models/Fee.js");
-import Student from("../models/students.js");
+import User from "../models/User.js";
+import Fee from "../models/Fee.js";
+import Student from "../models/students.js";
 
 
 const getUnverifiedUsers = async (req, res) => {
@@ -70,7 +70,7 @@ const updateFee = async (req, res) => {
   }
 };
 
-module.exports = {
+export {
   getUnverifiedUsers,
   verifyUser,
   createFee,
